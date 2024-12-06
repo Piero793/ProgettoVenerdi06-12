@@ -1,14 +1,18 @@
 /* Your styles here */
 html {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(233, 237, 238);
 
 }
 
 header {
-    background-color: rgb(4, 4, 84);
+    background-color: rgb(34, 47, 63);
     width: 100%;
     height: 40px;
 }
+
+/*Mi scuso col docente per il codice altamente impreciso e pieno di misure fisse, mi faccia notare 
+                                                           eventuali errori e come potevo correggere! */
 
 header img {
 
@@ -18,27 +22,30 @@ header img {
 }
 
 .menu {
-    background-color: rgb(7, 7, 143);
+    background-color: rgb(54, 71, 87);
+    padding-left: 5vh;
 }
 
 .menu a {
 
     display: inline-block;
-    font-size: smaller;
+    font-size: 10px;
     color: white;
     text-decoration: none;
+    padding: 2vh;
 }
 
-main > p{
+main>p {
     background-color: antiquewhite;
     text-align: center;
-    font-size: smaller;
-    background-color: orange;
+    font-size: 10px;
+    background-color: rgb(245, 102, 0);
     color: white;
-    margin: 20px;
+    margin: 5vh;
+    padding: 1.5vh;
 }
 
-.primaimmagine{
+.primaimmagine {
     background-image: url(../images/bg-image.png);
     text-align: center;
     padding-top: 50px;
@@ -49,33 +56,92 @@ main > p{
     margin-right: 20px;
 }
 
-.primaimmagine h2 {
-    margin-bottom: 20px;
+.primaimmagine p {
+    font-size: 2vh;
+    margin-top: 0;
 }
 
-.perfectgift >a {
+.primaimmagine h2 {
+    margin-bottom: 3.5vh;
+    font-size: 1.5em;
+}
+
+.perfectgift>a {
     font-size: small;
     text-decoration: none;
     color: black;
     display: inline-block;
     margin-left: 20px;
     margin-right: 20px;
-    
-}
-#shopnow{
-    color: blue;
-    margin-left: 0;
-    background-color: white;
-}
-.immaginiinlinea{
-    margin: 20px;
+    text-decoration: none;
+
 }
 
-.immaginiinlinea img {
+
+.perfectgift {
     display: inline-block;
-    width: 20%;
-    padding-left:  10px;
-    border-radius: 10%;
-    
+    font-size: 10px;
+    margin-top: 5vh;
+
+
+}
+
+#immaginiallineate {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: white;
+}
+
+#immaginiallineate img {
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    margin-left: 2em;
+    border-radius: 2%;
+}
+
+.immagine910 {
+    text-align: center;
+    font-size: 10px;
+    text-decoration: none;
+
+}
+
+.immagine910 img {
+    width: 80%;
+    height: 80%;
+}
+
+section {
+    background-color: rgb(54, 71, 87);
+    text-align: center;
+    padding: 1vh;
+    margin-top: 2em;
+
+}
+
+section a {
+    text-align: center;
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    padding: 10em;
+
+}
+
+footer {
+    background-color: rgb(34, 47, 63);
+    height: 100px;
+}
+
+footer img {
+    width: 50px;
+    margin-left: 45%;
+    height: 30px;
+    margin-top: 5vh;
+
 
 }

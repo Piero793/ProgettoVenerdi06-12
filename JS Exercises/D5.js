@@ -16,7 +16,8 @@ console.log(pets);
 /* ESERCIZIO 2
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
 */
-//console.log(pets.sort());
+
+console.log(pets.sort());
 
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
@@ -102,7 +103,7 @@ const numericArray = [
 
 
  /*while (numericArray[i]===0){                    
-  i++;                                        *HO DOVUTO COMMENTARE IL CODICE POICHè ENTRA IN UN LOOP INFINITO!!!
+  i++;                                        *!!!!!!!HO DOVUTO COMMENTARE IL CODICE POICHè ENTRA IN UN LOOP INFINITO!!!
   if (numericArray[i]===32){
     break;
   }
